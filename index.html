@@ -6,36 +6,87 @@
 <title>Jack &amp; Jill Concept Ideas · Pitch only</title>
 <meta name="robots" content="noindex">
 <style>
-  :root { --ink:#1a1a1a; --muted:#666; --bg:#faf8f5; --warn:#fff4d6; --warn-line:#e8c15a; }
+  :root { --ink:#1a1a1a; --muted:#5c5c5c; --bg:#faf8f5; --warn:#fff4d6; --warn-line:#c99a1f; --line:#e5e1db; }
   * { box-sizing:border-box; }
-  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); line-height:1.5; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
   .banner { background:var(--warn); border-bottom:2px solid var(--warn-line); padding:14px 20px; text-align:center; font-size:15px; }
-  .banner strong { letter-spacing:.02em; }
-  main { max-width:720px; margin:0 auto; padding:40px 20px 60px; }
-  h1 { font-size:32px; margin:0 0 6px; }
-  .sub { color:var(--muted); margin:0 0 36px; }
-  h2 { font-size:20px; margin:0 0 4px; }
-  .meta { color:var(--muted); font-size:14px; margin:0 0 14px; }
-  video { width:100%; max-width:540px; aspect-ratio:4/5; display:block; border-radius:12px; background:#000; box-shadow:0 8px 30px rgba(0,0,0,.12); }
-  footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid #e5e1db; padding-top:16px; }
-  a { color:inherit; }
+  main { max-width:880px; margin:0 auto; padding:40px 20px 60px; }
+  h1 { font-size:34px; margin:0 0 6px; line-height:1.2; }
+  h2 { font-size:24px; margin:48px 0 8px; }
+  h3 { font-size:18px; margin:32px 0 8px; }
+  .sub, .meta { color:var(--muted); }
+  .hero { display:grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap:24px; align-items:start; margin-top:24px; }
+  .hero > div { display:flex; flex-direction:column; gap:8px; }
+  @media (max-width:700px) { .hero { grid-template-columns:1fr; } }
+  @media (prefers-reduced-motion: reduce) { .hero .static { order:-1; } }
+  video, img { width:100%; display:block; border-radius:10px; }
+  video { aspect-ratio:4/5; background:#000; }
+  .frames { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+  @media (max-width:700px) { .frames { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+  figure { margin:0; } figcaption { font-size:13px; color:var(--muted); margin-top:4px; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+  th { white-space:nowrap; }
+  .links a { margin-right:16px; }
+  a { color:#1f3fd1; }
+  footer { margin-top:56px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:16px; }
 </style>
 </head>
 <body>
-  <div class="banner"><strong>FOR PITCHING ONLY.</strong> Unofficial concept work. Not currently used by, affiliated with or endorsed by Jack &amp; Jill.</div>
+  <div class="banner" role="note"><strong>FOR PITCHING ONLY.</strong> Unofficial concept work. Not currently used by, affiliated with or endorsed by Jack &amp; Jill. Names in the video are fictional.</div>
   <main>
     <h1>Jack &amp; Jill Concept Ideas</h1>
     <p class="sub">Speculative creative concepts by Sneha Baid, made for a pitch.</p>
 
-    <section>
-      <h2>01 · Two Agents, One Handshake</h2>
-      <p class="meta">Social video · 4:5 · 26 seconds</p>
-      <video src="two-agents-one-handshake/two-agents-one-handshake-4x5.mp4" controls playsinline preload="metadata"></video>
-    </section>
+    <h2>01 · Two Agents, One Handshake</h2>
+    <p class="meta">Silent social video · 4:5 · 26 seconds · Line: <em>Your career has an agent now.</em></p>
+    <p class="links"><a href="two-agents-one-handshake/TRANSCRIPT.md">Transcript</a><a href="two-agents-one-handshake/storyboard.png">Static storyboard</a><a href="https://github.com/snehabaid1998-byte/Jack-Jill-concept-ideas">Repository and full write-up</a></p>
+
+    <div class="hero">
+      <div>
+        <video src="two-agents-one-handshake/two-agents-one-handshake-4x5.mp4" poster="two-agents-one-handshake/frames/03-the-handshake.png" controls playsinline preload="metadata" aria-describedby="video-desc"></video>
+        <p id="video-desc" class="meta" style="font-size:13px;margin:0">Silent video. All content is on screen; a full transcript is linked above.</p>
+      </div>
+      <div class="static">
+        <img src="two-agents-one-handshake/storyboard.png" alt="Static storyboard of eight frames: job application cards piling up; Meet Jack, he works for you; Meet Jill, she works for the team; they talk first; Jack fits into Jill's notch; Why this intro card with both sides saying yes; Intro booked; Your career has an agent now.">
+        <p class="meta" style="font-size:13px;margin:0">No-motion alternative: every beat of the film as a still.</p>
+      </div>
+    </div>
+
+    <h3>Brand rationale</h3>
+    <p><strong>Extends the dual-agent idea.</strong> Jack works for the candidate, Jill works for the company, and they work together. The film makes that structure the story: one line per agent saying who it is loyal to, then the two of them meeting.</p>
+    <p><strong>Two halves of one mark.</strong> Jack is a warm orange circle; Jill is a cool blue square with a notch exactly his size. Neither is complete alone, so the promise of a good match lives in the character design itself.</p>
+    <p><strong>Agents do the legwork, humans make the call.</strong> The "Why this intro" card shows each agent's reasoning, then <em>Priya said yes</em> and <em>Hiring manager said yes</em> appear before <em>Intro booked</em>. AI handles the noise; people keep the final say.</p>
+    <p><strong>From noise to signal.</strong> The opening rebuilds the real job search as UI cards (auto-replies, "under review, day 34", 47 applications, 2 replies) so the agents arrive as relief, not as a feature list.</p>
+
+    <h3>Key frames</h3>
+    <div class="frames">
+      <figure><img src="two-agents-one-handshake/frames/01-the-job-search-today.png" alt="Scattered job application status cards. Counter reads Applications sent 47, Replies 2. Caption: The job search, today."><figcaption>1. The problem</figcaption></figure>
+      <figure><img src="two-agents-one-handshake/frames/02-they-talk-first.png" alt="Jack, an orange circle, and Jill, a blue notched square, face each other with a dotted line between them. Caption: They talk first."><figcaption>2. They talk first</figcaption></figure>
+      <figure><img src="two-agents-one-handshake/frames/03-the-handshake.png" alt="Jack fits into Jill's notch with a ring pulse around the join. Caption: You meet when it fits."><figcaption>3. The handshake</figcaption></figure>
+      <figure><img src="two-agents-one-handshake/frames/04-why-this-intro.png" alt="The joined characters above a Why this intro card showing each agent's reasoning, Priya said yes, Hiring manager said yes, and Intro booked Thu 10:00."><figcaption>4. Why this intro</figcaption></figure>
+    </div>
+
+    <h3>Motion logic</h3>
+    <table>
+      <tr><th>0–4s</th><td>Status cards accumulate at slight angles; applications climb while replies stay at 2. Clutter creates overload.</td></tr>
+      <tr><th>5–11s</th><td>Screen clears to one character at a time. Each line types out letter by letter, with mirrored timing for Jack and Jill so they read as equals who listen.</td></tr>
+      <tr><th>12–14s</th><td>They move toward each other on one axis; a dotted line stands in for the conversation the user never has to sit through.</td></tr>
+      <tr><th>15–16s</th><td>Jack slides into Jill's notch and one ring pulses out. The only moment of emphasis in the film.</td></tr>
+      <tr><th>17–22s</th><td>The pair scales down to make room for the reasoning card; consent chips appear one at a time, then <em>Intro booked</em>.</td></tr>
+      <tr><th>23–26s</th><td>Background fades to dark and the joined characters hold as a lockup above the line.</td></tr>
+    </table>
+
+    <h3>Why the handshake</h3>
+    <p>A handshake is the moment two parties agree to meet, which is exactly what Jack &amp; Jill arrange. It needs both sides, as a two-sided marketplace does. It signals agreement rather than automation: the agents shake hands on your behalf, but both people still say yes. And a shape clicking into place reads instantly on a muted phone feed.</p>
+
+    <h3>Accessibility</h3>
+    <p><strong>In place:</strong> no reliance on sound (the video is silent and every beat is on screen) · timed <a href="two-agents-one-handshake/TRANSCRIPT.md">transcript</a> · static storyboard alternative, shown first when reduced motion is on · no autoplay · alt text on all images.</p>
+    <p><strong>Planned, not yet done:</strong> WebVTT audio-description track · photosensitivity review · formal WCAG AA contrast audit of the small in-video text · reduced-motion video cut · captioned voiceover version.</p>
 
     <footer>
       Concept, design and motion by <a href="https://www.linkedin.com/in/-snehabaid">Sneha Baid</a>.
-      This is pitch material only and is not an official Jack &amp; Jill asset. All brand names belong to their respective owners.
+      Pitch material only; not an official Jack &amp; Jill asset. All brand names belong to their respective owners.
     </footer>
   </main>
 </body>
