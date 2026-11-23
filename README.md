@@ -2,17 +2,20 @@
 
 > **⚠️ For pitching only.** These are unofficial, speculative concepts created by Sneha Baid as part of a pitch. They are **not being used by Jack & Jill**, and are not affiliated with, commissioned by or endorsed by the company. Names shown in the video (Priya, Northwind) are fictional. All brand names belong to their respective owners.
 
-## Quick links
+## ▶️ Watch the finished piece (26 seconds)
 
-| | |
-|---|---|
-| ▶️ **Watch the video (GitHub file)** | [two-agents-one-handshake-4x5.mp4](https://github.com/snehabaid1998-byte/Jack-Jill-concept-ideas/blob/main/two-agents-one-handshake/two-agents-one-handshake-4x5.mp4) |
-| 📄 **Transcript** | [TRANSCRIPT.md](two-agents-one-handshake/TRANSCRIPT.md) |
-| 🖼️ **Static storyboard (no motion)** | [storyboard.png](two-agents-one-handshake/storyboard.png) |
-| 📁 **Repository** | [snehabaid1998-byte/Jack-Jill-concept-ideas](https://github.com/snehabaid1998-byte/Jack-Jill-concept-ideas) |
-| 🌐 **Web page** | [snehabaid1998-byte.github.io/Jack-Jill-concept-ideas](https://snehabaid1998-byte.github.io/Jack-Jill-concept-ideas/) (GitHub Pages) |
+<p align="center">
+  <a href="https://github.com/snehabaid1998-byte/Jack-Jill-concept-ideas/blob/main/two-agents-one-handshake/two-agents-one-handshake-4x5.mp4">
+    <img src="two-agents-one-handshake/preview.gif" width="400" alt="Looping preview of the 26-second video: job application cards pile up, Jack (an orange circle) and Jill (a blue notched square) are introduced, talk, and fit together; a Why this intro card shows both sides saying yes; end line: Your career has an agent now.">
+  </a>
+</p>
 
-[![Frame from the video: Jack, an orange circle, fits into the curved notch of Jill, a blue square. Caption: You meet when it fits.](two-agents-one-handshake/frames/03-the-handshake.png)](https://github.com/snehabaid1998-byte/Jack-Jill-concept-ideas/blob/main/two-agents-one-handshake/two-agents-one-handshake-4x5.mp4)
+<p align="center">
+  <b><a href="https://github.com/snehabaid1998-byte/Jack-Jill-concept-ideas/blob/main/two-agents-one-handshake/two-agents-one-handshake-4x5.mp4">▶️ Watch the full-quality video (MP4, 1080 × 1350, 26s)</a></b><br>
+  <sub>Looping preview above (silent, like the original). Click it to open the full video.</sub>
+</p>
+
+**More:** [Transcript](two-agents-one-handshake/TRANSCRIPT.md) · [Static storyboard (no motion)](two-agents-one-handshake/storyboard.png) · [Web page](https://snehabaid1998-byte.github.io/Jack-Jill-concept-ideas/)
 
 ---
 
@@ -74,7 +77,7 @@ Full beat-by-beat storyboard: [storyboard.png](two-agents-one-handshake/storyboa
 - ✅ **Does not rely on sound.** The video has no audio track. Every story beat is carried by on-screen text and visuals, so nothing is lost when it autoplays muted in a feed.
 - ✅ **Transcript.** A full timed transcript of all on-screen text and key visual actions: [TRANSCRIPT.md](two-agents-one-handshake/TRANSCRIPT.md).
 - ✅ **Static alternative.** A no-motion storyboard of all eight beats with captions: [storyboard.png](two-agents-one-handshake/storyboard.png). The web page shows it next to the video and moves it first for visitors who have reduced motion turned on.
-- ✅ **No autoplay on the web page.** The video only plays when the viewer presses play.
+- ✅ **No autoplay on the web page.** The video only plays when the viewer presses play. The README preview is an animated image, which GitHub pauses for visitors who have reduced motion turned on.
 - ✅ **Alt text** on every frame image in this README and on the web page.
 
 **Planned, not yet done**
