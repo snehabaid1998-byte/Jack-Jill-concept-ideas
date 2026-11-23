@@ -2,6 +2,8 @@
 
 > **⚠️ For pitching only.** These are unofficial, speculative concepts created by Sneha Baid as part of a pitch. They are **not being used by Jack & Jill**, and are not affiliated with, commissioned by or endorsed by the company. Names shown in the video (Priya, Northwind) are fictional. All brand names belong to their respective owners.
 
+**Credits:** Independent concept, art direction, design, motion, and accessibility framing by Sneha Baid; AI used as a supporting ideation/build tool.
+
 ## ▶️ Watch the finished piece (26 seconds)
 
 <p align="center">
@@ -89,4 +91,6 @@ Full beat-by-beat storyboard: [storyboard.png](two-agents-one-handshake/storyboa
 
 ---
 
-Concept, design and motion by [Sneha Baid](https://www.linkedin.com/in/-snehabaid). Pitch material only; not an official Jack & Jill asset.
+**Credits:** Independent concept, art direction, design, motion, and accessibility framing by [Sneha Baid](https://www.linkedin.com/in/-snehabaid); AI used as a supporting ideation/build tool.
+
+Pitch material only; not an official Jack & Jill asset.
